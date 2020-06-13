@@ -114,24 +114,25 @@ div.infocontainer
 
 
 section.carousel
-    overflow-x: hidden
-    height: 100vh
-    width: 100%
-    display: grid
-    grid-template-columns: auto auto auto auto auto
+
+    max-width: 100%
+    margin:  0 10vw
     padding: 0
+    display: grid
+    grid-template-columns: 20vw 20vw 20vw 20vw
 
 
     & div
-        height: 60vh
+        height: 40vh
         border: 1px solid black
         transition: 2s
-    
-    & div:hover
+        margin:  2vh 1vw
         background-image: url("../img/heart.gif")
-        background-position: center
+        background-position: top
         background-size: contain
         background-repeat: no-repeat
+        cursor: pointer
+    
 
     & span
         font-size: 3em
@@ -142,9 +143,10 @@ section.carousel
         
     
     & img
-        width: 20vw
-        height: 100%
         object-fit: cover
+        width: 100%
+        height: 100%
+         
 
     & img:hover
         cursor: pointer
@@ -182,9 +184,9 @@ section.carousel
 
 div.sort
     width: 100%
+    text-align: right
 
     & button
-        float: right
         border-radius: 5%
         background-color: #d61223
         color: white

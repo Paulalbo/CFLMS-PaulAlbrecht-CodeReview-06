@@ -31,19 +31,19 @@ data =`[{
 },{
     "title" : "Sherlock",
     "image" : "./img/sherlock.jpg",
-    "image_m" : "./img/sherlock.jpg",
+    "image_m" : "./img/sherlock_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "id" : "6"
 },{
     "title" : "Scrubs",
     "image" : "./img/scrubs.jpg",
-    "image_m" : "./img/scrubs.jpg",
+    "image_m" : "./img/scrubs_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "id" : "7"
 },{
     "title" : "How I met your mother",
     "image" : "./img/himym.jpg",
-    "image_m" : "./img/himym.jpg",
+    "image_m" : "./img/himym_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
     "id" : "8"
 }

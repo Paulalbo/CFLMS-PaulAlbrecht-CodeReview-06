@@ -14,8 +14,8 @@ $(document).ready(function() {
         getcarousel.innerHTML +=
         `<div id="${serie.id}" title="${serie.title}" image="${serie.image_m}" description="${serie.description}" class="seriesimgm${serie.id}"><span id="${serie.id}">❤ </span><img src=\"${serie.image_m}\"></div>`;
 
-        // show only the first 5 images in carousel div
-        $(".carousel > div").slice(5).remove();
+        // show only the first 6 images in carousel div
+        $(".carousel > div").slice(8).remove();
     }
 
 
@@ -57,6 +57,9 @@ $(".seriesimg").on("click", function() {
     counter3 = 0
     counter4 = 0
     counter5 = 0
+    counter6 = 0
+    counter7 = 0
+    counter8 = 0
         
     $(".seriesimgm1").click(function() { 
         counter1++;
@@ -87,6 +90,24 @@ $(".seriesimg").on("click", function() {
 
             $("#5 span").text("❤ " + counter5);
         });
+    
+    $(".seriesimgm6").click(function() { 
+        counter6++;
+
+            $("#6 span").text("❤ " + counter6);
+        });
+    
+    $(".seriesimgm7").click(function() { 
+        counter7++;
+
+            $("#7 span").text("❤ " + counter7);
+        });
+    
+    $(".seriesimgm8").click(function() { 
+        counter8++;
+
+            $("#8 span").text("❤ " + counter8);
+        });
 
 
 
@@ -98,6 +119,7 @@ $(".seriesimg").on("click", function() {
             var movielist4 = $(".seriesimgm4");
             var movielist5 = $(".seriesimgm5");
             
+
 
         });
 
