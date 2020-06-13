@@ -111,16 +111,21 @@ $(".seriesimg").on("click", function() {
 
 
 
-        // sort function 
+        // sort function ---> currently not working
+
         $(".sort button").click(function() { 
-            var movielist1 = $(".seriesimgm1");
-            var movielist2 = $(".seriesimgm2");
-            var movielist3 = $(".seriesimgm3");
-            var movielist4 = $(".seriesimgm4");
-            var movielist5 = $(".seriesimgm5");
+            var movielist1 = counter1
+            var movielist2 = counter2
+            var movielist3 = counter3
+            var movielist4 = counter4
+            var movielist5 = counter5
+            var movielist6 = counter6
+            var movielist7 = counter7
+            var movielist8 = counter8
+
+            alert("sorry currently not working")
+
             
-
-
         });
 
 });
