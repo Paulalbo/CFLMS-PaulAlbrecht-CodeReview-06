@@ -6,6 +6,9 @@
 
 body {
   background-color: black;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#6A0318), to(#000));
+  background-image: linear-gradient(to top, #6A0318, #000);
+  background-attachment: fixed;
 }
 
 header {
@@ -29,9 +32,6 @@ h1 {
   padding: 15vh 0;
   text-align: center;
   letter-spacing: 1vw;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#6A0318), to(#000));
-  background-image: linear-gradient(to top, #6A0318, #000);
-  background-attachment: fixed;
 }
 
 section.imggrid {
@@ -147,18 +147,16 @@ section.carousel {
   -ms-grid-columns: auto auto auto auto auto;
       grid-template-columns: auto auto auto auto auto;
   padding: 0;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#6A0318), to(#000));
-  background-image: linear-gradient(to top, #6A0318, #000);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 section.carousel div {
   height: 60vh;
   border: 1px solid black;
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+section.carousel div:hover {
   background-image: url("../img/heart.gif");
   background-position: center;
   background-size: contain;
@@ -166,7 +164,7 @@ section.carousel div {
 }
 
 section.carousel span {
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   color: white;
   display: block;
@@ -220,6 +218,39 @@ section.carousel button:hover {
 }
 
 section.carousel p.like {
+  color: white;
+}
+
+div.sort {
+  width: 100%;
+}
+
+div.sort button {
+  float: right;
+  border-radius: 5%;
+  background-color: #d61223;
+  color: white;
+  font-size: 3em;
+  padding: 0.5%;
+  margin: 2% 3%;
+  border-color: black;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.sort button:focus {
+  outline: 0;
+}
+
+div.sort button:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+div.sort button:hover {
+  border: white 1px solid;
+  cursor: pointer;
+  background-color: black;
   color: white;
 }
 /*# sourceMappingURL=style.css.map */

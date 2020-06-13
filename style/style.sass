@@ -5,6 +5,8 @@
 
 body
     background-color: black
+    background-image: linear-gradient(to top, #6A0318 , #000)
+    background-attachment: fixed
 
 header
     width: 100%
@@ -25,8 +27,6 @@ h1
     padding: 15vh 0
     text-align: center
     letter-spacing: 1vw
-    background-image: linear-gradient(to top, #6A0318 , #000)
-    background-attachment: fixed
 
 
 
@@ -120,22 +120,21 @@ section.carousel
     display: grid
     grid-template-columns: auto auto auto auto auto
     padding: 0
-    background-image: linear-gradient(to top, #6A0318 , #000)
-    background-position: center
-    background-size: contain
-    background-repeat: no-repeat
+
 
     & div
         height: 60vh
         border: 1px solid black
-        transition: 0.1s
+        transition: 2s
+    
+    & div:hover
         background-image: url("../img/heart.gif")
         background-position: center
         background-size: contain
         background-repeat: no-repeat
 
     & span
-        font-size: 2em
+        font-size: 3em
         text-align: center
         color: white
         display: block
@@ -179,4 +178,30 @@ section.carousel
         background-color: black
         color: white
     & p.like 
+        color: white
+
+div.sort
+    width: 100%
+
+    & button
+        float: right
+        border-radius: 5%
+        background-color: #d61223
+        color: white
+        font-size: 3em
+        padding: 0.5%
+        margin: 2% 3%
+        border-color: black
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+        
+    & button:focus
+        outline: 0
+
+    & button:active
+         transform: scale(0.8)
+        
+    & button:hover
+        border: white 1px solid
+        cursor: pointer
+        background-color: black
         color: white

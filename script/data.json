@@ -3,49 +3,49 @@ data =`[{
     "image" : "./img/peaky_blinders.jpg",
     "image_m" : "./img/peaky_blinders_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "peaky_blinders"
+    "id" : "1"
 },{
     "title" : "The Witcher",
     "image" : "./img/the_witcher.jpg",
     "image_m" : "./img/the_witcher_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "the_witcher"
+    "id" : "2"
 },{
     "title" : "The Money Heist",
     "image" : "./img/money_heist.jpg",
     "image_m" : "./img/money_heist_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "money_heist"
+    "id" : "3"
 },{
     "title" : "Bad Banks",
     "image" : "./img/bad_banks.jpg",
     "image_m" : "./img/bad_banks_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "bad_banks"
+    "id" : "4"
 },{
     "title" : "Suits",
     "image" : "./img/suits.jpg",
     "image_m" : "./img/suits_m.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "suits"
+    "id" : "5"
 },{
     "title" : "Sherlock",
     "image" : "./img/sherlock.jpg",
     "image_m" : "./img/sherlock.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "sherlock"
+    "id" : "6"
 },{
     "title" : "Scrubs",
     "image" : "./img/scrubs.jpg",
     "image_m" : "./img/scrubs.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "scrubs"
+    "id" : "7"
 },{
     "title" : "How I met your mother",
     "image" : "./img/himym.jpg",
     "image_m" : "./img/himym.jpg",
     "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "id" : "himym"
+    "id" : "8"
 }
 ]`;
 
