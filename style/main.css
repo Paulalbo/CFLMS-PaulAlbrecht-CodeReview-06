@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../img/mountain_back.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header .mountain {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/mountain_front.png);
+  background-attachment: fixed;
+  background-size: cover;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .heroheading {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  font-size: 3em;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  -webkit-box-shadow: 10px 10px 33px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 33px 1px rgba(0, 0, 0, 0.75);
+  margin-top: 30vh;
+  letter-spacing: 15px;
+}
+
+header #scroll {
+  margin-top: 15vh;
+  border-radius: 50%;
+  width: 100px;
+  padding: 15px 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: white;
+}
+
+b {
+  font-weight: 700;
+}
+
+section {
+  min-height: 100vh;
+  max-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.first {
+  height: 120vh;
+  width: 100%;
+  background-color: white;
+}
+
+section.first h1 {
+  text-align: justify;
+}
+
+section.second {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#363534), to(#000000));
+  background-image: linear-gradient(to bottom right, #363534, #000000);
+  background-attachment: fixed;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 30px;
+}
+
+section.second nav {
+  margin: 2vh auto 2vh auto;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#363534), to(#000000));
+  background-image: linear-gradient(to bottom right, #363534, #000000);
+  background-attachment: fixed;
+  width: 50%;
+  border-radius: 50px;
+  top: 10px;
+  padding: 5px 30px;
+}
+
+section.second .bg-light a {
+  color: white !important;
+  border-bottom: white solid 1px;
+  margin: 0 5px;
+  width: 10vw;
+  text-align: center;
+}
+
+section.second .bg-light a:hover {
+  background-color: white;
+  color: black !important;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+section.second img.location {
+  height: 15vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+section.second img.location:hover {
+  opacity: 0.7;
+}
+
+section.second .container {
+  z-index: 20;
+  background-color: #F8F9FA;
+  padding: 3vh 5vw;
+  margin: 4vh auto;
+  max-width: 1500px;
+}
+
+section.second .row {
+  margin: 0;
+}
+
+section.second .active {
+  color: gold !important;
+}
+
+section.second .rating1, section.second .rating2, section.second .rating3, section.second .rating4, section.second .rating5 {
+  color: white;
+  cursor: pointer;
+}
+
+section.second .star {
+  cursor: pointer;
+}
+
+section.second .innderdiv {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+section.second .text {
+  padding: 0 10px;
+}
+
+section.second .star {
+  padding: 0 10px;
+}
+
+section.second h3, section.second h1 {
+  padding-top: 2vh;
+}
+/*# sourceMappingURL=main.css.map */
