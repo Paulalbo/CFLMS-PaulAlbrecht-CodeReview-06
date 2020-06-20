@@ -115,6 +115,11 @@ section.second nav {
   padding: 5px 30px;
 }
 
+section.second .navbar-toggler-icon {
+  background-color: white;
+  border-radius: 10px;
+}
+
 section.second .bg-light a {
   color: white !important;
   border-bottom: white solid 1px;

@@ -21,9 +21,9 @@
             }
     
             insertlocation() {
-                return      `<div class="col-xl-3 p-0 col-md-4 col-sm-12">
+                return      `<div class="col-xl-3 p-0 col-md-6 col-sm-12">
                                 <div class="innderdiv">
-                                    <img class="location" src="./img/${this.imgname}">
+                                    <img class="d-none d-md-block location" src="./img/${this.imgname}">
                                     <span class="text">${this.created}<br><b>${this.name}</b><br>${this.district}<br>${this.zip} ${this.address}</span>
                                 </div>
                             </div>`;
@@ -61,9 +61,9 @@
             };
     
             insertrestaurant() {
-                return      `<div class="col-xl-3 p-0 col-md-4 col-sm-12">
+                return      `<div class="col-xl-3 p-0 col-md-6 col-sm-12">
                                 <div class="innderdiv">
-                                    <img class="location" src="./img/${this.imgname}">
+                                    <img class="d-none d-md-block location" src="./img/${this.imgname}">
                                     <span class="text">${super.basicinfo()}<br>&#9990; ${this.telephone}<br>${this.type}<br>${this.web}</span>
                                 </div>
                             </div>`;
@@ -95,9 +95,9 @@
             };
     
             insertevent() {
-                return      `<div class="col-xl-3 p-0 col-md-4 col-sm-12">
+                return      `<div class="col-xl-3 p-0 col-md-6 col-sm-12">
                                 <div class="innderdiv">
-                                    <img class="location" src="./img/${this.imgname}">
+                                    <img class="d-none d-md-block location" src="./img/${this.imgname}">
                                     <span class="text">${super.basicinfo()}<br>${this.date}<br>${this.time}<br>${this.price}</span>
                                 </div>
                             </div>`;

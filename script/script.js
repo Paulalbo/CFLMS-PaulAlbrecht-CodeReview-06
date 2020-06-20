@@ -29,7 +29,7 @@ $(document).ready(function () {
             this.created = created;
         }
         Location.prototype.insertlocation = function () {
-            return "<div class=\"col-xl-3 p-0 col-md-4 col-sm-12\">\n                                <div class=\"innderdiv\">\n                                    <img class=\"location\" src=\"./img/" + this.imgname + "\">\n                                    <span class=\"text\">" + this.created + "<br><b>" + this.name + "</b><br>" + this.district + "<br>" + this.zip + " " + this.address + "</span>\n                                </div>\n                            </div>";
+            return "<div class=\"col-xl-3 p-0 col-md-6 col-sm-12\">\n                                <div class=\"innderdiv\">\n                                    <img class=\"d-none d-md-block location\" src=\"./img/" + this.imgname + "\">\n                                    <span class=\"text\">" + this.created + "<br><b>" + this.name + "</b><br>" + this.district + "<br>" + this.zip + " " + this.address + "</span>\n                                </div>\n                            </div>";
         };
         ;
         Location.prototype.basicinfo = function () {
@@ -59,7 +59,7 @@ $(document).ready(function () {
         }
         ;
         restaurant.prototype.insertrestaurant = function () {
-            return "<div class=\"col-xl-3 p-0 col-md-4 col-sm-12\">\n                                <div class=\"innderdiv\">\n                                    <img class=\"location\" src=\"./img/" + this.imgname + "\">\n                                    <span class=\"text\">" + _super.prototype.basicinfo.call(this) + "<br>&#9990; " + this.telephone + "<br>" + this.type + "<br>" + this.web + "</span>\n                                </div>\n                            </div>";
+            return "<div class=\"col-xl-3 p-0 col-md-6 col-sm-12\">\n                                <div class=\"innderdiv\">\n                                    <img class=\"d-none d-md-block location\" src=\"./img/" + this.imgname + "\">\n                                    <span class=\"text\">" + _super.prototype.basicinfo.call(this) + "<br>&#9990; " + this.telephone + "<br>" + this.type + "<br>" + this.web + "</span>\n                                </div>\n                            </div>";
         };
         return restaurant;
     }(Location));
@@ -84,7 +84,7 @@ $(document).ready(function () {
         }
         ;
         event.prototype.insertevent = function () {
-            return "<div class=\"col-xl-3 p-0 col-md-4 col-sm-12\">\n                                <div class=\"innderdiv\">\n                                    <img class=\"location\" src=\"./img/" + this.imgname + "\">\n                                    <span class=\"text\">" + _super.prototype.basicinfo.call(this) + "<br>" + this.date + "<br>" + this.time + "<br>" + this.price + "</span>\n                                </div>\n                            </div>";
+            return "<div class=\"col-xl-3 p-0 col-md-6 col-sm-12\">\n                                <div class=\"innderdiv\">\n                                    <img class=\"d-none d-md-block location\" src=\"./img/" + this.imgname + "\">\n                                    <span class=\"text\">" + _super.prototype.basicinfo.call(this) + "<br>" + this.date + "<br>" + this.time + "<br>" + this.price + "</span>\n                                </div>\n                            </div>";
         };
         return event;
     }(Location));
